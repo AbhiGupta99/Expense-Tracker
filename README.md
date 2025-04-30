@@ -1,0 +1,1 @@
+This is a Python based user friendly Expense Tracker software which helps user track their expense and budget it. User gets a graphical diagram to tracket the ditribution of expense in different sectors. 
