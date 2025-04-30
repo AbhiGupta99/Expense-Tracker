@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="379px" preserveAspectRatio="none" style="width:444px;height:379px;background:#FFFFFF;" version="1.1" viewBox="0 0 444 379" width="444px" zoomAndPan="magnify"><defs/><g><!--MD5=[003e6cc216d12db9972c10dc636ac0e8]
+cluster Expense Tracker System--><g id="cluster_Expense Tracker System"><rect fill="none" height="366" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="217" x="221" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="196" x="231.5" y="21.9951">Expense Tracker System</text></g><g id="elem_UE"><ellipse cx="329.3288" cy="58.7658" fill="#F1F1F1" rx="69.3288" ry="16.2658" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="280.8288" y="62.5133">Add Expense</text></g><g id="elem_UD"><ellipse cx="329.5612" cy="128.2122" fill="#F1F1F1" rx="76.5612" ry="17.7122" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="271.5612" y="131.9598">Delete Expense</text></g><g id="elem_UV"><ellipse cx="329.3318" cy="201.8664" fill="#F1F1F1" rx="92.3318" ry="20.8664" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="147" x="255.8318" y="204.713">View Expense Details</text></g><g id="elem_UEI"><ellipse cx="329.464" cy="274.1928" fill="#F1F1F1" rx="68.964" ry="16.1928" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="281.464" y="277.9404">Edit Expense</text></g><g id="elem_USB"><ellipse cx="329.7353" cy="340.8471" fill="#F1F1F1" rx="64.7353" ry="15.3471" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="287.7353" y="344.5946">Set Budget</text></g><!--MD5=[ee0fec323975fbe97ba28321ad4c4bf3]
+entity U--><g id="elem_U"><ellipse cx="22" cy="172.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M22,180.5 L22,207.5 M9,188.5 L35,188.5 M22,207.5 L9,222.5 M22,207.5 L35,222.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="6" y="236.9951">User</text></g><!--MD5=[6f4e812793ac5fa874b01d508e22790e]
+link U to UE--><g id="link_U_UE"><path d="M35.64,163.73 C42.76,147.7 53.26,130.21 68,119 C121.79,78.09 198.66,64.31 254.96,60.03 " fill="none" id="U-to-UE" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="260,59.67,250.7372,56.3233,255.0128,60.0273,251.3088,64.3028,260,59.67" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="95" y="63.0669">Add Expense</text></g><!--MD5=[6e1de38227cddfc68fcd424f2cab4ef8]
+link U to UD--><g id="link_U_UD"><path d="M38.24,191.92 C46.69,186.75 57.58,180.76 68,177 C128.7,155.08 201.06,142.48 254.1,135.55 " fill="none" id="U-to-UD" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="259.17,134.9,249.7303,132.0907,254.2115,135.543,250.7592,140.0242,259.17,134.9" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100" x="86.5" y="140.0669">Delete Expense</text></g><!--MD5=[5647897e3420534513c51d7fdbf04c1b]
+link U to UV--><g id="link_U_UV"><path d="M38.15,202 C73.07,202 161.6,202 231.8,202 " fill="none" id="U-to-UV" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="236.82,202,227.82,198,231.82,202,227.82,206,236.82,202" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="69" y="198.0669">View Expense Details</text></g><!--MD5=[7fa45fdb323bbc03cc50bc2c03bf0c72]
+link U to UEI--><g id="link_U_UEI"><path d="M38.23,212.11 C46.68,217.29 57.56,223.28 68,227 C130.79,249.41 206.07,261.51 259.52,267.8 " fill="none" id="U-to-UEI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="264.62,268.39,256.1356,263.3884,259.6527,267.819,255.2221,271.3361,264.62,268.39" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="95.5" y="223.0669">Edit Expense</text></g><!--MD5=[9870e7ba04debc5082358b39b4cb1e1f]
+link U to USB--><g id="link_U_USB"><path d="M35.56,240.37 C42.67,256.42 53.18,273.9 68,285 C123.44,326.52 203.14,338.63 259.76,341.53 " fill="none" id="U-to-USB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="264.82,341.77,256.0121,337.3632,259.8252,341.5417,255.6467,345.3548,264.82,341.77" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="100.5" y="281.0669">Set Budget</text></g><!--MD5=[7e2c1a925781b28d735988ad06fbdb58]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor User as U
+
+rectangle "Expense Tracker System" {
+    usecase "Add Expense" as UE
+    usecase "Delete Expense" as UD
+    usecase "View Expense Details" as UV
+    usecase "Edit Expense" as UEI
+    usecase "Set Budget" as USB
+
+    U - -> UE : Add Expense
+    U - -> UD : Delete Expense
+    U - -> UV : View Expense Details
+    U - -> UEI : Edit Expense
+    U - -> USB : Set Budget
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

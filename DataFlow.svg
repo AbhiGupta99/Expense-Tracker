@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="392px" preserveAspectRatio="none" style="width:375px;height:392px;background:#FFFFFF;" version="1.1" viewBox="0 0 375 392" width="375px" zoomAndPan="magnify"><defs/><g><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><g id="elem_User"><ellipse cx="135.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M135.5,22 L135.5,49 M122.5,30 L148.5,30 M135.5,49 L122.5,64 M135.5,49 L148.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="119.5" y="78.4951">User</text></g><!--MD5=[5ec98094e9deade887686ad232090266]
+entity Entry--><g id="elem_Entry"><ellipse cx="55.5" cy="167" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M55.5,175 L55.5,202 M42.5,183 L68.5,183 M55.5,202 L42.5,217 M55.5,202 L68.5,217 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="6" y="231.4951">Expense Entry</text></g><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><g id="elem_DB"><ellipse cx="138.5" cy="320" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M138.5,328 L138.5,355 M125.5,336 L151.5,336 M138.5,355 L125.5,370 M138.5,355 L151.5,370 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="105.5" y="384.4951">Database</text></g><!--MD5=[5f463796621bcefedeae71a81743eb36]
+link User to Entry--><g id="link_User_Entry"><path d="M119.31,51.12 C98.06,60.8 61.7,81.04 46.5,111.5 C40.14,124.24 39.9,139.4 42.05,153.31 " fill="none" id="User-to-Entry" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="42.95,158.37,45.3219,148.811,42.0794,153.4464,37.4441,150.2039,42.95,158.37" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="47.5" y="124.5669">Enters Expense Details</text></g><!--MD5=[45cbd7fd5c00a641126f11b0a2638237]
+link Entry to DB--><g id="link_Entry_DB"><path d="M50.42,234.65 C49.93,249.86 51.51,267.21 58.5,281.5 C67.66,300.25 84.77,315.68 100.83,327 " fill="none" id="Entry-to-DB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="105.32,330.08,100.1562,321.6934,101.1952,327.254,95.6346,328.2931,105.32,330.08" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="59.5" y="277.5669">Stores Expense Data</text></g><!--MD5=[d04ad489efe634e1615a0fcf08cde544]
+link DB to User--><g id="link_DB_User"><path d="M171.56,321.5 C182.63,310.41 193.65,296.61 199.5,281.5 C226.77,211.04 227.61,181.63 199.5,111.5 C190.75,89.66 171.11,70.91 155.88,58.84 " fill="none" id="DB-to-User" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="151.71,55.62,156.3519,64.3064,155.6545,58.6927,161.2681,57.9952,151.71,55.62" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="221.5" y="201.0669">Displays Expense Data</text></g><!--MD5=[d38ab2a611c5e3fc98f3566b2bfb876a]
+@startuml
+:User: as User
+:Expense Entry: as Entry
+:Database: as DB
+
+(User) - -> (Entry): Enters Expense Details
+(Entry) - -> (DB): Stores Expense Data
+(DB) - -> (User): Displays Expense Data
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
